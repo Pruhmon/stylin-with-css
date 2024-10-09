@@ -21,14 +21,37 @@
     padding:1%;
 
     }
+    /* start nav rules */
+    nav{
+    text-align:center; /* centers the nav */
+    }
 
-table, th, td {
-border: 1px solid;
-border-collapse:collapse;
 
-           footer {
-   clear:both;
-   text-align:center;
+    nav a{
+    color:#000; /* font color is black */
+    }
+
+
+    nav ul {
+    list-style:none; /* removes the bullets */
+    }
+    nav li
+    {
+    display:inline-block; /* makes <li> horizontal, but able to declare margins */
+    margin:0 2%; /* margin left-right, gets smaller as necessary */
+    }
+    nav a:hover{
+    text-decoration: none; /* default underline goes away on hover */
+    }
+    /* end nav rules */
+
+    table, th, td {
+    border: 1px solid;
+    border-collapse:collapse;
+
+            footer {
+    clear:both;
+    text-align:center;
 }
 
        }
@@ -38,16 +61,13 @@ border-collapse:collapse;
    <header>
        <h1>HTML Stylin with CSS By Praman White</h1>
        <nav>
-           <a href="https://www.w3.org/" target="_blank">The W3C</a> |
-           <a href="https://whatwg.org/" target="_blank">WHATWG Community</a> |
-           <a href="https://www.w3schools.com/" target="_blank">W3Schools</a> |
-           <a href="https://linkedin.com/learning">LinkedIn Learning Library</a>
+        <li><a href="elements.html" target="_blank">HTML Elements</a></li>
+        <li><a href="https://www.w3.org/" target="_blank">The W3C</a></li>
+        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+        <li><a href="https://linkedin.com/learning/login" target="_blank">LinkedIn Learning Library</a></li>
            <nav>
             <ul>
-                <li><a href="elements.html" target="_blank">HTML Elements</a></li>
-                <li><a href="https://www.w3.org/" target="_blank">The W3C</a></li>
-                <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
-                <li><a href="https://linkedin.com/learning/login" target="_blank">LinkedIn Learning Library</a></li>
+              
             </ul>
          </nav>
       
